@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/deals-mobile/static/css/main.4fa5e964.css",
-    "main.js": "/deals-mobile/static/js/main.24d90116.js",
+    "main.js": "/deals-mobile/static/js/main.1e48e1d2.js",
     "static/js/377.bd31b78c.chunk.js": "/deals-mobile/static/js/377.bd31b78c.chunk.js",
     "service-worker.js": "/deals-mobile/service-worker.js",
     "index.html": "/deals-mobile/index.html",
     "main.4fa5e964.css.map": "/deals-mobile/static/css/main.4fa5e964.css.map",
-    "main.24d90116.js.map": "/deals-mobile/static/js/main.24d90116.js.map",
+    "main.1e48e1d2.js.map": "/deals-mobile/static/js/main.1e48e1d2.js.map",
     "377.bd31b78c.chunk.js.map": "/deals-mobile/static/js/377.bd31b78c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fa5e964.css",
-    "static/js/main.24d90116.js"
+    "static/js/main.1e48e1d2.js"
   ]
 }

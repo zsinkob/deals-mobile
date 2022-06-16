@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import DealDetails from "./pages/DealDetails";
 import {Chat} from "./pages/Chat";
 
@@ -12,13 +12,13 @@ import './push-notification';
 
 ReactDOM.render(
   <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
           <Routes>
               <Route path="/chat" element={<Chat />} />
               <Route path="/" element={<App />} />
               <Route path="deal/:dealId" element={<DealDetails />} />
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
